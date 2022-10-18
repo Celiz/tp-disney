@@ -247,6 +247,7 @@ button {
 
     &.active {
       background-color: #040714;
+      animation: fadeIn 450ms ease-in-out 0ms 1 forwards;
     }
 
     & .img {
@@ -264,10 +265,10 @@ button {
   margin-top: 6px;
   & > button {
     margin-right: 10px;
-    animation: fadeOut 350ms ease-in-out 0ms 1 forwards;
+    animation: fadeOut 450ms ease-in-out 0ms 1 forwards;
     &.active {
       display: inline-flex;
-      animation: fadeIn 350ms ease-in-out 0ms 1 forwards;
+      animation: fadeIn 450ms ease-in-out 0ms 1 forwards;
     }
   }
 
