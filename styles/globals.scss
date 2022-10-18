@@ -54,6 +54,17 @@ button {
         margin-bottom: 32px;
         font-family: "Avenir Roman", sans-serif;
       }
+
+      & > .p--form{
+        font-size: 12px;
+        letter-spacing: -0.1px;
+        line-height: 18px;
+        text-align: start;
+        font-family: "Avenir Roman", sans-serif;
+
+        color: #cacaca;
+
+      }
       & > input {
         box-sizing: border-box;
         font-family: "Avenir Roman", sans-serif;
@@ -233,6 +244,11 @@ button {
     display: flex;
     align-items: center;
     padding: 0 50px;
+
+    &.active {
+      background-color: #040714;
+    }
+
     & .img {
       display: none !important;
     }
@@ -714,9 +730,10 @@ button {
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin: 100px 0px 0px; 
+  background-color: #0e0b14;
+
   & > * {
-    color: #c0c0c0;
+    color: #0e0b14 ;
     font-size: 12px;
     text-align: center;
   }

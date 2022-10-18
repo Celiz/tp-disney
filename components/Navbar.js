@@ -15,6 +15,9 @@ export default function Navbar() {
       if (window.scrollY > 500) {
         setToggleButton(true);
       } else if (window.scrollY < 500) {
+
+  
+      
         setToggleButton(false);
       }
     };
@@ -27,7 +30,8 @@ export default function Navbar() {
   }, []);
   return (
     <header className="header">
-      <nav className="header__nav">
+  
+      <nav className={`header__nav ${toggleButton ? 'active' : ''}`}>
         <Image
           src="/original.svg"
           className={`img ${toggleButton ? 'active' : ''}`}
