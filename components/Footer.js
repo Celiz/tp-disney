@@ -16,57 +16,6 @@ export default function Footer() {
         />
       </section>
       <section className="links">
-        <Select
-          value={"esp"}
-          icon={<IconWorld />}
-          style={{
-            background: 'none !important',
-            backgroundColor: 'transparent',
-            width: '150px',
-          }}
-          styles={(theme) => ({
-            dropdown: {
-              backgroundColor: "#040714",
-              border: "none",
-            },
-            input: {
-              color: "#fff",
-              backgroundColor: "transparent",
-              border: "none",
-              "&:hover": {
-                textDecoration: "underline",
-              },
-            },
-            item: {
-              borderBottom: "1px solid #fff",
-              borderRadius: "0px",
-              backgroundColor: "#040714",
-              color: "#f9f9f9",
-              "&:hover": {
-                backgroundColor: "#f9f9f9",
-                color: "#040714",
-              },
-              // applies styles to selected item
-              '&[data-selected]': {
-                backgroundColor:
-                  "#040714",
-                color: "#f9f9f9",
-                fontWeight: "bold",
-                "&:hover": {
-                  backgroundColor: "#f9f9f9",
-                  color: "#040714",
-                },
-              },
-
-              // applies styles to hovered item (with mouse or keyboard)
-              '&[data-hovered]': {},
-            },
-          })}
-          data={[
-            { value: 'esp', label: 'Español' },
-            { value: 'en', label: 'English' },
-          ]}
-        />
         <section className="links__right">
           {
             links.map((link, i) => (

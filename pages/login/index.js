@@ -3,13 +3,12 @@ import Head from "next/head"
 import { useRouter } from "next/router"
 
 
-import Form from "../components/Form.js"
-import Navbar from '../components/NavbarLogin.js';
-import Footer from '../components/FooterLogin.js';
+import Form from "../../components/Form.js"
+import Navbar from '../../components/NavbarLogin.js';
+import Footer from '../../components/FooterLogin.js';
 
 export default function Login() {
   const router = useRouter()
-  // TBC
   return (
     <React.Fragment>
       <Head>
@@ -18,7 +17,7 @@ export default function Login() {
       </Head>
       <Navbar />
       <main className="main login">
-        <Form />
+        <Form/>
       </main>
       <Footer />
     </React.Fragment>

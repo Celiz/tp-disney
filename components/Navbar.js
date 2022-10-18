@@ -12,9 +12,9 @@ export default function Navbar() {
 
     const handleScroll = event => {
       console.log('window.scrollY', window.scrollY);
-      if (window.scrollY >= 800) {
+      if (window.scrollY >= 400) {
         setToggleButton(true);
-      } else if (window.scrollY <= 800) {
+      } else if (window.scrollY <= 400) {
         
         setToggleButton(false);
       }
