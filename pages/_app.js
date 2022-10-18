@@ -1,5 +1,5 @@
 import '../styles/globals.scss'
-import { MantineProvider } from '@mantine/core';
+import {MantineProvider} from '@mantine/core';
 
 function MyApp({ Component, pageProps }) {
   return (
