@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import React from 'react';
-
 import Navbar from '../components/Navbar.js';
 import Footer from '../components/Footer.js';
 import Cta from '../components/index/Cta.js';
