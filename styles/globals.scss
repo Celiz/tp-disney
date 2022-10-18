@@ -245,13 +245,13 @@ button {
 .nav__buttons {
   margin-left: auto;
   width: fit-content;
-  margin-top: 10px;
+  margin-top: 6px;
   & > button {
     margin-right: 10px;
-    animation: fadeOut 500ms ease-in-out 0ms 1 forwards;
+    animation: fadeOut 350ms ease-in-out 0ms 1 forwards;
     &.active {
       display: inline-flex;
-      animation: fadeIn 500ms ease-in-out 0ms 1 forwards;
+      animation: fadeIn 350ms ease-in-out 0ms 1 forwards;
     }
   }
 

@@ -12,7 +12,6 @@ export default function Login() {
     <React.Fragment>
       <Head>
         <title>Iniciar sesión | Disney+</title>
-        <meta name="description" content="Clon del sitio de disney plus, por Tomas Di Mauro (tmdm.com.ar) " />
         <link rel="icon" href="https://static-assets.bamgrid.com/product/disneyplus/favicons/favicon.85e279041d79e51b147c1b6feb4f981e.ico" />
       </Head>
       <Navbar />
