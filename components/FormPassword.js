@@ -19,8 +19,8 @@ export default function FormPassword() {
                 <p className="p">
                     Ingresa tu correo electrónico y te enviaremos un enlace para restablecer tu contraseña.
                 </p>
-                <PasswordInput className="form"
-                    placeholder="Change visibility toggle icon"
+                <PasswordInput 
+                    placeholder="Contraseña"
                     visibilityToggleIcon={({ reveal, size }) =>
                         reveal ? <IconEyeOff size={size} /> : <IconEyeCheck size={size} />
                     }
