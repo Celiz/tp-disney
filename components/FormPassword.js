@@ -7,22 +7,20 @@ import { links2 } from '../constants/links';
 import { useRouter } from 'next/router';
 
 
-
 export default function FormPassword() {
 
-    const router = useRouter()
-    return (
+    const router = useRouter();
 
+    return (
         <main className="main login">
             <section className="login__section">
                 <h3 className="h3">Iniciar sesión | Disney+</h3>
                 <p className="p">
                     Ingresa tu correo electrónico y te enviaremos un enlace para restablecer tu contraseña.
                 </p>
-                <PasswordInput 
-                    placeholder="Contraseña"
+                <PasswordInput refplaceholder="Contraseña"
                     visibilityToggleIcon={({ reveal, size }) =>
-                        reveal ? <IconEyeOff size={size} /> : <IconEyeCheck size={size} />
+                    reveal ? <IconEyeOff size={size} /> : <IconEyeCheck size={size} />
                     }
                 />
                 <p className="p--form">
@@ -36,3 +34,5 @@ export default function FormPassword() {
     );
 
 }
+
+

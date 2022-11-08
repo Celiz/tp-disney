@@ -11,16 +11,15 @@ import FormPassword from '../../components/FormPassword.js';
 export default function Password() {
 
     const router = useRouter()
-
     return (
         <React.Fragment>
             <Head>
                 <title>Restablecer contraseña | Disney+</title>
                 <link rel="icon" href="https://static-assets.bamgrid.com/product/disneyplus/favicons/favicon.85e279041d79e51b147c1b6feb4f981e.ico" />
             </Head>
-            <Navbar />
+            <Navbar/>
             <main className="main login">
-                <FormPassword />
+                <FormPassword/>
             </main>
             <Footer />
         </React.Fragment>

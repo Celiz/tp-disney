@@ -8,18 +8,22 @@ import Navbar from '../../components/NavbarLogin.js';
 import Footer from '../../components/FooterLogin.js';
 
 export default function Login() {
-  const router = useRouter()
+
+
+  const router = useRouter()  
+
   return (
-    <React.Fragment>
+    <div className="login">
       <Head>
-        <title>Iniciar sesión | Disney+</title>
-        <link rel="icon" href="https://static-assets.bamgrid.com/product/disneyplus/favicons/favicon.85e279041d79e51b147c1b6feb4f981e.ico" />
+        <title>Disney+ | Iniciar Sesión</title> 
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
       <main className="main login">
-        <Form/>
+          <Form/>
       </main>
       <Footer />
-    </React.Fragment>
+    </div>
   )
-}
+
+  }
