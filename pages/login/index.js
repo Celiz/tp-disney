@@ -8,10 +8,9 @@ import Navbar from '../../components/NavbarLogin.js';
 import Footer from '../../components/FooterLogin.js';
 
 export default function Login() {
-
-
-  const router = useRouter()  
-
+  const router = useRouter()
+   
+  const [email, setEmail] = React.useState("");
   return (
     <div className="login">
       <Head>
@@ -20,7 +19,7 @@ export default function Login() {
       </Head>
       <Navbar />
       <main className="main login">
-          <Form/>
+          <Form onChange={e => setEmail(e.target.value)} value={email}/>
       </main>
       <Footer />
     </div>
