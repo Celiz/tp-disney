@@ -11,9 +11,12 @@ export default function Dashboard() {
         <title>Disney+</title>
         <link rel="icon" href="https://static-assets.bamgrid.com/product/disneyplus/favicons/favicon.85e279041d79e51b147c1b6feb4f981e.ico" />
       </Head>
-      <NavbarLogin />
-      <h1>Dashboard</h1>
-      <Footer />
+      <Navbar/> 
+        <main className="main login">
+           <section className="login__section">
+              <h3 className="h3">Bienvenido a Disney+</h3>
+            </section>
+        </main>   
     </React.Fragment>
   )
 }
