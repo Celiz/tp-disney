@@ -14,7 +14,7 @@ export default function Login() {
   return (
     <div className="login">
       <Head>
-        <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+
         <title>Disney+ | Iniciar Sesión</title> 
         <link rel="icon" href="/favicon.ico" />
       </Head>
