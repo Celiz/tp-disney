@@ -36,7 +36,6 @@ export default function Password() {
     return (
         <React.Fragment>
             <Head>
-                <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
                 <title>Restablecer contraseña | Disney+</title>
                 <link rel="icon" href="https://static-assets.bamgrid.com/product/disneyplus/favicons/favicon.85e279041d79e51b147c1b6feb4f981e.ico" />
             </Head>
